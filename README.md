@@ -26,7 +26,7 @@ https://aka.ms/XMDEClientAnalyzer
 
 https://github.com/MicrosoftDocs/defender-docs/blob/public/defender-endpoint/comprehensive-guidance-on-linux-deployment.md
 
-# Configuring a Windows Network File Share
+# Configuring a Windows Network File Share to download Intelligence Files to
 
 The following PowerShell script is required 
 
