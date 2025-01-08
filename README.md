@@ -42,6 +42,9 @@ https://learn.microsoft.com/en-us/azure/defender-for-cloud/faq-defender-for-serv
 
 ## Hyper-V
 
+The following table lists the file type exclusions, folder exclusions, and process exclusions that are delivered 
+automatically when you install the Hyper-V role.
+
 | Exclusion Type  | Specifics |
 | ------------- | ------------- |
 | File Types | *.vhd, *.vhdx, *.avhd, *.avhdx, *.vsv, *.iso, *.rct, *.vmcx, *.vmrs  |
