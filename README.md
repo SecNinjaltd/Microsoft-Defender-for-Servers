@@ -40,6 +40,18 @@ https://learn.microsoft.com/en-us/azure/defender-for-cloud/faq-defender-for-serv
 
 # Windows Server 2012 R2 Exclusions
 
+Automatic exclusions for the server role and any rules that are added while installing that role are automatically added 
+on Windows Servers 2016 or greater. 
+
+However, for environments using Windows 2012 Server R2, additional exclusions are required. Make sure you factor this in 
+when designing your Dynamic Security Groups, to avoid applying exclusions to other Server OS types that shouldn’t have them. 
+
+If you plan to migrate from another third-party solution or use Microsoft Defender for Endpoint in passive mode, the 
+following exclusions must be added to the third-party Antimalware solution:
+
+%Program Files%\Windows Defender\
+%ProgramData%\Microsoft\Windows Defender\Platform
+
 ## Hyper-V
 
 The following table lists the file type exclusions, folder exclusions, and process exclusions that are delivered 
