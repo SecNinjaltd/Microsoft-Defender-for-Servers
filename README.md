@@ -37,3 +37,16 @@ https://www.powershellgallery.com/packages/SignatureDownloadCustomTask/1.4
 
 https://learn.microsoft.com/en-us/azure/defender-for-cloud/faq-defender-for-servers
 
+
+# Windows Server 2012 R2 Exclusions
+
+## Hyper-V
+
+| Exclusion Type  | Specifics |
+| ------------- | ------------- |
+| File Types | *.vhd, *.vhdx, *.avhd, *.avhdx, *.vsv, *.iso, *.rct, *.vmcx, *.vmrs  |
+| Folders | %ProgramData%\Microsoft\Windows\Hyper-V |
+|                | %ProgramFiles%\Hyper-V |
+|                | %SystemDrive%\ProgramData\Microsoft\Windows\Hyper-V\Snapshots |
+|                | %Public%\Documents\Hyper-V\Virtual Hard Disks |
+| Content Cell  | Content Cell  |
