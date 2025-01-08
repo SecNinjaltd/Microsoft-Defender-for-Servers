@@ -1,4 +1,4 @@
-I've put together a list of useful URK's you may require;
+I've put together a list of useful URL's and exclusions you may require for your Defender for Servers deployments;
 
 
 # Defender for Servers activation on resource level
